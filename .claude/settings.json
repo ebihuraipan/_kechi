@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(*)",
+      "Read(*)",
+      "Glob(*)",
+      "Bash(mkdir -p *)",
+      "Bash(bun --version)",
+      "Bash(bun pm ls)",
+      "Bash(bun run *)",
+      "Bash(xargs cat)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.github.com)",
+      "WebFetch(domain:code.visualstudio.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:techwatching.dev)",
+      "WebFetch(domain:gigamind.dev)",
+      "WebFetch(domain:fossies.org)"
+    ],
+    "deny": [
+      "Bash(rm -r*)",
+      "Bash(git push*)"
+    ],
+    "additionalDirectories": [
+      "/home/u2/_proj/_cal/src/components"
+    ]
+  }
+}
